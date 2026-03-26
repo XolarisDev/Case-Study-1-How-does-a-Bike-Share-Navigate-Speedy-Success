@@ -31,20 +31,7 @@ This step will address the data source that will be used for the analysis and th
 
 **Data Source**:  Cyclistic’s historical trip data from Jan 2022 to Dec 2022 which is a public dataset published by Motivate International Inc. will be used to analyze and identify trends. [Click Here](https://divvy-tripdata.s3.amazonaws.com/index.html) for the dataset.
 
-**Data Information**: In the data source, there are 12 files in total following the naming convention of *"YYYYMM-divvy-tripdata"*. Each file contains data for a specific month, including other details such as ride ID, bike type, start time, end time, start station, end station, start location, end location, and member status. The corresponding column names are:
-- ride_id
-- rideable_type
-- started_at
-- ended_at
-- start_station_name
-- start_station_id
-- end_station_name
-- end_station_id
-- start_lat
-- start_lng
-- end_lat
-- end_lng
-- member_casual
+**Data Information**: In the data source, there are 12 files in total following the naming convention of *"YYYYMM-divvy-tripdata"*. Each file contains data for a specific month, including other details such as ride ID, bike type, start time, end time, start station, end station, start location, end location, and member status. 
 
 ### Step 3: Process
 
