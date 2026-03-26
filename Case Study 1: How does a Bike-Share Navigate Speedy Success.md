@@ -39,7 +39,7 @@ This step will address the data source that will be used for the analysis and th
 
 #### Data Combination
 
-Tables representing 12 CSV files have been uploaded, by importing a folder containing the 12 files and then selecting "Combine and Transform Data"
+Tables representing 12 CSV files have been uploaded, by importing a folder containing the 12 files and then selecting "Combine and Transform Data". This will then open power query, where the rest of the data mangement will happen.
 
 #### Data Exploration
 
@@ -47,63 +47,17 @@ To help ensure data cleanness, we have to check if the dataset has any null valu
 
 After checking the null values, we also need to check if the dataset has any duplicate values. By selecting the **ride_id** column, go to Home > Conditional Formatting > Highlight Cells Rules > Duplicate Values. It appears that we have no duplicate values:
 
-The trip starts and end times are indicated in the format YYYY-MM-DD hh:mm:ss UTC in the columns *"started_at"* and *"ended_at."* By introducing a new column called ***"ride_length"*** we can compute the total trip duration. It is necessary to exclude 5360 trips with a duration exceeding one day and 122283 trips with a duration less than a minute or end times earlier than start times.
+The trip starts and end times are indicated in the format YYYY-MM-DD hh:mm:ss UTC in the columns *"started_at"* and *"ended_at."* By introducing a new column called ***"ride_time"*** we can compute the total trip duration, by subtracting *"ended_at"* from the *"started_at"* cells. 
 
-Columns such as ***"day_of_week"*** and ***"month"*** can offer valuable insights into analyzing trips at various times throughout the year.
+We can improve this by categorizing the different times into 4 sections. 
+- Under 10 min
+- 10 to 30 min
+- 30 to 60 min
+- 0ver 60 min
+This can be done by adding a conditional column, using the ***"ride_time"*** column as an input. There is now a new column, categorizing every row with one of these outputs.
 
-To enhance data integrity, 833064 rows with missing values in both "start_station_name" and "start_station_id" should be eliminated. Similarly, 892742 rows with missing values in both ***"end_station_name"*** and ***"end_station_id"*** and 5858 rows with missing values in both ***"end_lat"*** and ***"end_lng"*** should also be removed.
+Columns such as ***"day_name"***, ***"hour"*** and ***"month"*** can offer valuable insights into analyzing trips at various times throughout the year.
 
-```
-SELECT started_at, ended_at
-FROM `2022_tripdata.all_tripdata`
-LIMIT 20;
-
-SELECT COUNT(*) AS longer_than_1_day
-FROM `2022_tripdata.all_tripdata`
-WHERE (
-  EXTRACT(HOUR FROM (ended_at - started_at)) * 60 +
-  EXTRACT(MINUTE FROM (ended_at - started_at)) +
-  EXTRACT(SECOND FROM (ended_at - started_at)) / 60) >= 1440;   -- longer than 1 day - total rows = 5360
-
-SELECT COUNT(*) AS less_than_a_minute
-FROM `2022_tripdata.all_tripdata`
-WHERE (
-  EXTRACT(HOUR FROM (ended_at - started_at)) * 60 +
-  EXTRACT(MINUTE FROM (ended_at - started_at)) +
-  EXTRACT(SECOND FROM (ended_at - started_at)) / 60) <= 1;      -- less than 1 minute - total rows = 122283
-```
-
-In the dataset, there are 833,064 rows where both the ***"start_station_name"*** and ***"start_station_id"*** values are missing.
-
-```
-SELECT DISTINCT start_station_name
-FROM `2022_tripdata.all_tripdata`
-ORDER BY start_station_name;
-
-SELECT COUNT(ride_id) AS start_station_null   
-FROM `2022_tripdata.all_tripdata`
-WHERE start_station_name IS NULL OR start_station_id IS NULL;
-
-```
-
-There are also 892,742 rows in which both the ***"end_station_name"*** and ***"end_station_id"*** values are absent.
-
-```
-SELECT DISTINCT end_station_name
-FROM `2022_tripdata.all_tripdata`
-ORDER BY end_station_name;
-
-SELECT COUNT(ride_id) AS end_station_null
-FROM `2022_tripdata.all_tripdata`
-WHERE end_station_name IS NULL OR end_station_id IS NULL;
-
-```
-In the dataset, there are a total of 5,858 rows where both the ***"end_lat"*** and ***"end_lng"*** values are missing.
-```
-SELECT COUNT(ride_id) AS end_loc_null
-FROM `2022_tripdata.all_tripdata`
-WHERE end_lat IS NULL OR end_lng IS NULL;
-```
 #### Data Cleaning
 
 In step, a new table will be created for cleaned data which is easier for analysis. Therefore, the following steps are implemented:
