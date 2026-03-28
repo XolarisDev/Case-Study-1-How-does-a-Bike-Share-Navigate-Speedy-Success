@@ -23,7 +23,7 @@ In this case study, the six steps of the data analysis process will be used in o
 ### Step 1: Ask
 **Key Task**: Create marketing tactics aimed at converting casual riders into Cyclistic members.
 
-For this case, Lily Moreno who is the director of marketing has assigned me as a junior data analyst to the first question: *How do annual members and casual riders use Cyclistic bikes differently?*
+For this case, Lily Moreno who is the director of marketing has assigned me as a junior data analyst to the question: *How do annual members and casual riders use Cyclistic bikes differently?*
 
 ### Step 2: Prepare
 
@@ -56,11 +56,11 @@ We can improve this by categorizing the different times into 4 sections.
 - 0ver 60 min
 This can be done by adding a conditional column, using the ***"ride_time"*** column as an input. There is now a new column, categorizing every row with one of these outputs.
 
-Columns such as ***"day_name"***, ***"hour"*** and ***"month"*** can offer valuable insights into analyzing trips at various times throughout the year.
+Columns such as ***"day_name"***, ***"hour"*** and ***"month"*** can offer valuable insights into analyzing trips at various times throughout the year. We can do this by going to add column > Date and Selecting the appropriate options.
 
 #### Data Cleaning
 
-In step, a new table will be created for cleaned data which is easier for analysis. Therefore, the following steps are implemented:
+Part of data cleaning is removing irrelevant, duplicate, corrupted, or incomplete information. With respect to the original question: *How do annual members and casual riders use Cyclistic bikes differently?*
 
  - First, any rows containing missing values are removed from the dataset.
  - 3 new columns, namely ***"ride_length"*** to indicate the trip duration, ***"day_of_week"*** to specify the day of the week, and ***"month"*** to represent the month, are added.
