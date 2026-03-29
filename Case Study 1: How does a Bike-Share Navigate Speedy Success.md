@@ -56,17 +56,17 @@ We can improve this by categorizing the different times into 4 sections.
 - 0ver 60 min
 This can be done by adding a conditional column, using the ***"ride_time"*** column as an input. There is now a new column, categorizing every row with one of these outputs.
 
-Columns such as ***"day_name"***, ***"hour"*** and ***"month"*** can offer valuable insights into analyzing trips at various times throughout the year. We can do this by going to add column > Date and Selecting the appropriate options.
+Columns such as ***"day_name"***, ***"hour"*** and ***"month"*** can offer valuable insights into analyzing trips at various times throughout the year. We can do this by selecting the ***"started_at"*** column, then select Add Column > Date and Selecting the appropriate options.
 
 #### Data Cleaning
 
 Part of data cleaning is removing irrelevant, duplicate, corrupted, or incomplete information. With respect to the original question: *How do annual members and casual riders use Cyclistic bikes differently?*
 
- - First, any rows containing missing values are removed from the dataset.
- - 3 new columns, namely ***"ride_length"*** to indicate the trip duration, ***"day_of_week"*** to specify the day of the week, and ***"month"*** to represent the month, are added.
- - Trips with durations less than a minute and longer than a day are excluded, leading to the removal of a total of 1,375,912 rows during this process.
+ - With that question in mind, we will delete columns from the dataset that are not relevant to our analysis. We will delete the following columns: ride ID, start time, end time, start station, end station, start location, and end location.
+ - 4 new columns,***"Month"*** to specify the month, ***Day_Name"*** to specify the day of the week, ***"Hour"*** to specify the hour,***"duration"*** to indicate if the duration category of the trip.
+ - we now need to cull the data down to what is needed by de-duping all of the possible combinations and giving us a count of each possible instance. This can be done by selecting the whole table > Group By > Use the default settings > OK
 
-
+We now have a table of 7 columns
 Create a new table called ***"alldata_cleaned"*** with the following code:
 ```
 CREATE TABLE IF NOT EXISTS `2022_tripdata.alldata_cleaned` AS (
