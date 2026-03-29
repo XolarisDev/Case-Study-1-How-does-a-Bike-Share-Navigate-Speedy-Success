@@ -54,6 +54,7 @@ We can improve this by categorizing the different times into 4 sections.
 - 10 to 30 min
 - 30 to 60 min
 - 0ver 60 min
+
 This can be done by adding a conditional column, using the ***"ride_time"*** column as an input. There is now a new column, categorizing every row with one of these outputs.
 
 Columns such as ***"day_name"***, ***"hour"*** and ***"month"*** can offer valuable insights into analyzing trips at various times throughout the year. We can do this by selecting the ***"started_at"*** column, then select Add Column > Date and Selecting the appropriate options.
