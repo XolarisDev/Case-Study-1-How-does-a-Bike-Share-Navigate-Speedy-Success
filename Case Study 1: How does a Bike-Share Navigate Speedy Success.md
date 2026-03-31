@@ -64,7 +64,7 @@ Columns such as ***"day_name"***, ***"hour"*** and ***"month"*** can offer valua
 Part of data cleaning is removing irrelevant, duplicate, corrupted, or incomplete information. With respect to the original question: *How do annual members and casual riders use Cyclistic bikes differently?*
 
  - With that question in mind, we will delete columns from the dataset that are not relevant to our analysis. We will delete the following columns: ride ID, start time, end time, start station, end station, start location, and end location.
- - 4 new columns,***"Month"*** to specify the month, ***Day_Name"*** to specify the day of the week, ***"Hour"*** to specify the hour,***"duration"*** to indicate if the duration category of the trip.
+ - 4 new columns are added,***"Month"*** to specify the month, ***Day_Name"*** to specify the day of the week, ***"Hour"*** to specify the hour,***"duration"*** to indicate if the duration category of the trip.
  - we now need to cull the data down to what is needed by de-duping all of the possible combinations and giving us a count of each possible instance. This can be done by selecting the whole table > Group By > Use the default settings > OK
 
 We now have a table of 7 columns
