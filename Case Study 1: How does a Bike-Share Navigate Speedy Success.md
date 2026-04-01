@@ -81,13 +81,13 @@ To initiate this comparison, we carefully examine and compare the specific types
 
 ![TotalBikeType](Data%20Visualization/Screenshot%202026-03-29%20191842.png)
 
-The composition of Cyclistic users can be divided into two major categories: members, accounting for approximately 59.7% of the total, and casual riders, comprising the remaining 40.3%. The percentage distribution for each bike type reveals that the classic bike is the most popular among both member and casual rider groups, with the electric bike ranking second in popularity. Interestingly, docked bikes are predominantly used by casual riders and represent the least utilized bike type within the Cyclistic service.
+The percentage distribution for each bike type reveals that the electrical bike is the most popular this past year, with a 65.07& total usage. Whereas, about a third of people still prefer classic bikes.
 
 Moving on, we delve into the analysis of trip distributions based on different time parameters. Specifically, we explore the number of trips distributed across months, days of the week, and hours of the day.
 
-![TotalTrip](Data%20Visualization/Total%20Trips.png)
+![TotalMonth](Data%20Visualization/Screenshot%202026-03-29%20191132.png)
 
-In terms of monthly trips, both casual riders and members exhibit similar patterns, with a higher number of trips occurring during the spring and summer months, and a decline during the winter season. Interestingly, the gap between casual riders and members is narrowest in the month of July during the summer.
+In terms of monthly trips, both casual riders and members exhibit similar patterns, with a higher number of trips occurring during the spring and summer months, and a decline during the winter season. Interestingly, their are more trips from members than casual users, every month throughout the year.
 
 When comparing trips based on the days of the week, it is evident that casual riders tend to take more journeys over the weekends, while members show a decline in trip frequency during the weekends compared to the rest of the weekdays.
 
