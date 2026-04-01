@@ -79,7 +79,7 @@ The data has been meticulously stored and prepared for thorough analysis. Releva
 
 To initiate this comparison, we carefully examine and compare the specific types of bikes that each group, comprising annual members and casual riders, frequently utilizes.
 
-![TotalBikeType](Data%2Visualization/Screenshot%22026-03-29%2191842.png)
+![TotalBikeType](Data%20Visualization/Screenshot%202026-03-29%20191842.png)
 
 The composition of Cyclistic users can be divided into two major categories: members, accounting for approximately 59.7% of the total, and casual riders, comprising the remaining 40.3%. The percentage distribution for each bike type reveals that the classic bike is the most popular among both member and casual rider groups, with the electric bike ranking second in popularity. Interestingly, docked bikes are predominantly used by casual riders and represent the least utilized bike type within the Cyclistic service.
 
