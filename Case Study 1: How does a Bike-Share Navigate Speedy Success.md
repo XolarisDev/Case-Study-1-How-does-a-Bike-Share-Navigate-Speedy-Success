@@ -107,16 +107,6 @@ It is important to note that casual riders tend to have longer cycling trips com
 
 Based on these findings, it can be inferred that casual riders travel longer distances, approximately twice as much as members, but less frequently. Their longer journeys are often observed on weekends and during the day outside of typical commuting hours, particularly in the spring and summer months, suggesting that they might be cycling for recreational purposes.
 
-To gain further insights into the differences between casual and member riders, an analysis of the starting and ending stations' locations can be conducted. By filtering and examining stations with the most trips, additional conclusions can be drawn.
-
-![TotalTripatStartLocation](Data%20Visualization/Total%20Trips%20at%20Start%20Location.png)
-
-Casual riders often initiate their trips from stations located near museums, parks, beaches, harbors, and aquariums, whereas members tend to start their journeys from stations in proximity to universities, residential areas, restaurants, hospitals, grocery stores, theaters, schools, banks, factories, train stations, parks, and plazas.
-
-![TotalTripatEndLocation](Data%20Visualization/Trips%20at%20Ending%20Station.png)
-
-A comparable pattern is evident in the ending station locations. Casual riders tend to conclude their journeys near parks, museums, and other recreational sites, while members end their trips in proximity to universities, residential, and commercial areas. This observation further supports the notion that casual riders utilize bikes primarily for leisure activities, whereas members heavily rely on them for their daily commutes.
-
 ***Here are the summary:***
 
 *Casual Rider*
