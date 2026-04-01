@@ -89,7 +89,11 @@ Moving on, we delve into the analysis of trip distributions based on different t
 
 In terms of monthly trips, both casual riders and members exhibit similar patterns, with a higher number of trips occurring during the spring and summer months, and a decline during the winter season. Interestingly, their are more trips from members than casual users, every month throughout the year.
 
+![TotalWeek](Data%20Visualization/Screenshot%202026-03-28%20223919.png)
+
 When comparing trips based on the days of the week, it is evident that casual riders tend to take more journeys over the weekends, while members show a decline in trip frequency during the weekends compared to the rest of the weekdays.
+
+![TotalHour](Data%20Visualization/Screenshot%202026-03-29%20191017.png)
 
 Analyzing trips based on the hours of the day reveals distinct patterns for members and casual riders. Members display two peak periods for trips, occurring in the early morning from around 6 am to 8 am, and in the evening from around 4 pm to 8 pm. In contrast, the number of trips for casual riders steadily increases throughout the day, peaking in the evening and then gradually decreasing.
 
@@ -97,7 +101,7 @@ From these observations, we can infer that members may predominantly use bikes f
 
 To understand the differences in behavior between casual and member riders, the ride duration of trips is compared in the subsequent analysis.
 
-![RideDurationAvg](Data%20Visualization/Ride%20Duration.png)
+![RideDuration](Data%20Visualization/Screenshot%202026-03-29%20192520.png)
 
 It is important to note that casual riders tend to have longer cycling trips compared to members on average. The average journey length for members remains consistent throughout the year, week, and day. However, there are notable variations in the ride durations of casual riders. Specifically, during the spring and summer seasons, on weekends, and between 10 am and 2 pm during the day, they cover greater distances. Conversely, they have shorter trips between five and eight in the morning.
 
