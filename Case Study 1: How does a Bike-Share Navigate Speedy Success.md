@@ -75,7 +75,9 @@ We now have a new column ***"count"***, finishing our table with a total of 7 co
 
 #### Data Analysis & Visualization
 
-The data has been meticulously stored and prepared for thorough analysis. Relevant information was extracted from multiple tables and then effectively visualized using **Tableau**. The primary objective of this analysis is *to understand the distinct usage patterns of Cyclistic bikes between annual members and casual riders.*
+The data has been meticulously stored and prepared for thorough analysis. Relevant information was extracted from multiple tables and then effectively visualized using **Tableau**. [Click Here For Tableau Profile](https://public.tableau.com/app/profile/jon.vazquez/viz/Howdoesabike-sharenavigatespeedysuccess_17740702417030/UsageOverWeek#2)
+
+The primary objective of this analysis is *to understand the distinct usage patterns of Cyclistic bikes between annual members and casual riders.*
 
 To initiate this comparison, we carefully examine and compare the specific types of bikes that people have utilized this past year.
 
