@@ -69,7 +69,7 @@ Part of data cleaning is removing irrelevant, duplicate, corrupted, or incomplet
 
 We now have a new column ***"count"***, finishing our table with a total of 7 columns ready for analysis
 
-![TotalBikeType](Data%20Visualization/Screenshot%202026-03-26%20164239.png)
+![example](Data%20Visualization/Screenshot%202026-03-26%20164239.png)
 
 ### Step 4 & 5: Analyze and Share
 
@@ -79,7 +79,7 @@ The data has been meticulously stored and prepared for thorough analysis. Releva
 
 To initiate this comparison, we carefully examine and compare the specific types of bikes that each group, comprising annual members and casual riders, frequently utilizes.
 
-![TotalBikeType](Data%20Visualization/Total%20Bike%20Types.png)
+![TotalBikeType](Data%2Visualization/Screenshot%22026-03-29%2191842.png)
 
 The composition of Cyclistic users can be divided into two major categories: members, accounting for approximately 59.7% of the total, and casual riders, comprising the remaining 40.3%. The percentage distribution for each bike type reveals that the classic bike is the most popular among both member and casual rider groups, with the electric bike ranking second in popularity. Interestingly, docked bikes are predominantly used by casual riders and represent the least utilized bike type within the Cyclistic service.
 
