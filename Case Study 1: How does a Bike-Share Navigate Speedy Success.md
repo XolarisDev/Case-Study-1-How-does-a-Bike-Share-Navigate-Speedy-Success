@@ -99,9 +99,7 @@ When comparing trips based on the days of the week, bike usage for casual riders
 
 Analyzing trips based on the hours of the day reveals distinct patterns for members and casual riders. Members display two peak periods for trips, occurring in the early morning from around 6 am to 8 am, and in the evening from around 4 pm to 8 pm. In contrast, the number of trips for casual riders steadily increases throughout the day, peaking in the evening and then gradually decreasing.
 
-From these observations, we can infer that members may predominantly use bikes for commuting to and from work on weekdays, while casual riders utilize bikes more frequently throughout the day, particularly on weekends for leisure purposes. Both groups exhibit higher activity levels during the summer and spring months.
-
-To understand the differences in behavior between casual and member riders, the ride duration of trips is compared in the subsequent analysis.
+From these observations, we can infer that members may predominantly use bikes for commuting to and from work on weekdays, while casual riders utilize bikes more frequently throughout the day, particularly on weekends for leisure purposes. Both groups exhibit higher activity levels during the warmer months.
 
 ![RideDuration](Data%20Visualization/Screenshot%202026-03-29%20192520.png)
 
