@@ -93,7 +93,7 @@ In terms of monthly trips, both casual riders and members exhibit similar patter
 
 ![TotalWeek](Data%20Visualization/Screenshot%202026-03-28%20223919.png)
 
-When comparing trips based on the days of the week, it is evident that casual riders tend to take more journeys over the weekends, while members show a decline in trip frequency during the weekends compared to the rest of the weekdays.
+When comparing trips based on the days of the week, bike usage for casual riders increase over the weekends. Whereas with members, bike trips decrease over the weekends compared to the rest of the week.
 
 ![TotalHour](Data%20Visualization/Screenshot%202026-03-29%20191017.png)
 
