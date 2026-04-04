@@ -103,7 +103,9 @@ From these observations, we can infer that members may predominantly use bikes f
 
 ![RideDuration](Data%20Visualization/Screenshot%202026-04-03%20205035.png)
 
-Both casual users and members took more trips that were under 10 minutes, this past year. As for casual users, 15.85% of trips were under 10 minutes, which is just slighlty higher than the 14.65% of trips that were 10-30 minutes. It can be inferred that most of
+This past year, both casual users and members took more trips that were under 10 minutes. Focusing on casual users, 44.11% of their trips were under 10 minutes, slighlty higher than the 40.75% of trips that were 10-30 minutes. The majority of trips taken by casual users are relatively shorter than members, with only a total of 15.14% of trips being over half an hour this past year. 
+
+As for members, the majoriy of their trips this past year were short, with 57.71% of their trips being under 10 minutes. With only a total of about 5.38% of trips being over half an hour this past year
 
 Based on these findings, it can be inferred that casual riders travel longer distances, approximately twice as much as members, but less frequently. Their longer journeys are often observed on weekends and during the day outside of typical commuting hours, particularly in the spring and summer months, suggesting that they might be cycling for recreational purposes.
 
