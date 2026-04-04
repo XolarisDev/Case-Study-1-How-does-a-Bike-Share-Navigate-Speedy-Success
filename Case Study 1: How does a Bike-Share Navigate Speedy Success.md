@@ -107,9 +107,9 @@ This past year, both casual users and members took more trips that were under 10
 
 As for members, the majoriy of their trips this past year were short, with 57.71% of their trips being under 10 minutes. With only a total of about 5.38% of trips being over half an hour this past year
 
-Based on these findings, it can be inferred that casual riders travel longer distances, but less frequently. Their longer journeys are often observed on weekends and during the day outside of typical commuting hours, particularly in the spring and summer months, suggesting that they might be cycling for recreational purposes.
+Based on these findings, it can be inferred that casual riders travel longer distances, but less frequently.
 
-***Here are the summary:***
+***SUMMARY:***
 
 *Casual Rider*
 
