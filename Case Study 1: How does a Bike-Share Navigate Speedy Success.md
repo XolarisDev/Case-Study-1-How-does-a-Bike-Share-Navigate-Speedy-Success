@@ -83,7 +83,7 @@ To initiate this comparison, we carefully examine and compare the specific types
 
 ![TotalBikeType](Data%20Visualization/Screenshot%202026-03-29%20191842.png)
 
-The percentage distribution for each bike type reveals that the electrical bike is the most popular this past year, with a 65.07& total usage. Whereas, about a third of people still prefer classic bikes.
+The percentage distribution for each bike type reveals that the electrical bike is the most popular this past year, with a 65.07% total usage. Whereas, about a third of people still prefer classic bikes.
 
 Moving on, we delve into the analysis of trip distributions based on different time parameters. Specifically, we explore the number of trips distributed across months, days of the week, and hours of the day.
 
@@ -107,7 +107,7 @@ This past year, both casual users and members took more trips that were under 10
 
 As for members, the majoriy of their trips this past year were short, with 57.71% of their trips being under 10 minutes. With only a total of about 5.38% of trips being over half an hour this past year
 
-Based on these findings, it can be inferred that casual riders travel longer distances, approximately twice as much as members, but less frequently. Their longer journeys are often observed on weekends and during the day outside of typical commuting hours, particularly in the spring and summer months, suggesting that they might be cycling for recreational purposes.
+Based on these findings, it can be inferred that casual riders travel longer distances, but less frequently. Their longer journeys are often observed on weekends and during the day outside of typical commuting hours, particularly in the spring and summer months, suggesting that they might be cycling for recreational purposes.
 
 ***Here are the summary:***
 
