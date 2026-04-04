@@ -101,9 +101,9 @@ Analyzing trips based on the hours of the day reveals distinct patterns for memb
 
 From these observations, we can infer that members may predominantly use bikes for commuting to and from work on weekdays, while casual riders utilize bikes more frequently throughout the day, particularly on weekends for leisure purposes. Both groups exhibit higher activity levels during the warmer months.
 
-![RideDuration](Data%20Visualization/Screenshot%202026-03-29%20192520.png)
+![RideDuration](Data%20Visualization/Screenshot%202026-04-03%20205035.png)
 
-It is important to note that casual riders tend to have longer cycling trips compared to members on average. The average journey length for members remains consistent throughout the year, week, and day. However, there are notable variations in the ride durations of casual riders. Specifically, during the spring and summer seasons, on weekends, and between 10 am and 2 pm during the day, they cover greater distances. Conversely, they have shorter trips between five and eight in the morning.
+Both casual users and members took more trips that were under 10 minutes, this past year. As for casual users, 15.85% of trips were under 10 minutes, which is just slighlty higher than the 14.65% of trips that were 10-30 minutes. It can be inferred that most of
 
 Based on these findings, it can be inferred that casual riders travel longer distances, approximately twice as much as members, but less frequently. Their longer journeys are often observed on weekends and during the day outside of typical commuting hours, particularly in the spring and summer months, suggesting that they might be cycling for recreational purposes.
 
